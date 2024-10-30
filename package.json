@@ -1,6 +1,7 @@
 {
-  "name": "personal-portfolio",
+  "name": "cckk2913.github.io",
   "version": "0.1.0",
+  "homepage": "/hamin-letter",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
