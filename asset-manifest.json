@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.15a81fee.css",
+    "main.css": "/static/css/main.96503ba8.css",
     "main.js": "/static/js/main.74a4f3f4.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/caelum_hamin.png": "/static/media/caelum_hamin.496145d43f1b124f60fb.png",
@@ -35,12 +35,12 @@
     "static/media/arrow2.svg": "/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.15a81fee.css.map": "/static/css/main.15a81fee.css.map",
+    "main.96503ba8.css.map": "/static/css/main.96503ba8.css.map",
     "main.74a4f3f4.js.map": "/static/js/main.74a4f3f4.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15a81fee.css",
+    "static/css/main.96503ba8.css",
     "static/js/main.74a4f3f4.js"
   ]
 }
