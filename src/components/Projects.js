@@ -31,7 +31,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">給成員們</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">23年生日</Nav.Link>
+                      <Nav.Link eventKey="third">23年生咖</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -84,7 +84,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
 }

@@ -59,9 +59,8 @@ export const Banner = () => {
               {/*  <span className="tagline">PLAVE</span> */}
                   <h1>{`플레이브 하민입니다.`}</h1>
                   <h2 className="txt-rotate" dataPeriod="1000" ><span className="wrap">{text}</span></h2>
-                  <p>Welcome to Hamin's Letter Gallery —
-                    a collection of letters that highlight various moments since PLAVE's debut.
-                    Please enjoy the beauty of Hamin's words and the memories.</p>
+                  <p>Welcome to Hamin's Letter Gallery - a collection of letters that capture treasured moments since PLAVE's debut.
+                    Enjoy reading Hamin's words and relive the memories.</p>
                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>
