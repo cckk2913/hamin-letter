@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hamin-letter/static/css/main.282a1c3c.css",
-    "main.js": "/hamin-letter/static/js/main.63e17445.js",
+    "main.css": "/hamin-letter/static/css/main.8ce123ca.css",
+    "main.js": "/hamin-letter/static/js/main.f6fcd3b0.js",
     "static/js/787.c0e50c82.chunk.js": "/hamin-letter/static/js/787.c0e50c82.chunk.js",
     "static/media/caelum_hamin.png": "/hamin-letter/static/media/caelum_hamin.496145d43f1b124f60fb.png",
     "static/media/hamin.jpeg": "/hamin-letter/static/media/hamin.2592cbba3393643e0ac9.jpeg",
@@ -55,12 +55,12 @@
     "static/media/arrow2.svg": "/hamin-letter/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/hamin-letter/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/hamin-letter/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.282a1c3c.css.map": "/hamin-letter/static/css/main.282a1c3c.css.map",
-    "main.63e17445.js.map": "/hamin-letter/static/js/main.63e17445.js.map",
+    "main.8ce123ca.css.map": "/hamin-letter/static/css/main.8ce123ca.css.map",
+    "main.f6fcd3b0.js.map": "/hamin-letter/static/js/main.f6fcd3b0.js.map",
     "787.c0e50c82.chunk.js.map": "/hamin-letter/static/js/787.c0e50c82.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.282a1c3c.css",
-    "static/js/main.63e17445.js"
+    "static/css/main.8ce123ca.css",
+    "static/js/main.f6fcd3b0.js"
   ]
 }
