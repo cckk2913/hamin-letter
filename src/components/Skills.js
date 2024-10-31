@@ -1,6 +1,3 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -36,9 +33,11 @@ export const Skills = () => {
   
   const codeString = `
   class Hamin:
+  
     def __init__(self):
-        self.name = "Hamin"
+        self.name = "柳河玟"
         self.birth = "????.11.01"
+        self.color = "Black"
         self.mood = "Happy"
         self.action_sequence = []  
         self.dance_moves = ["Spin", "Jump", "Wave", "Shuffle"]

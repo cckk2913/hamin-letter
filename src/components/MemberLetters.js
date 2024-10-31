@@ -6,6 +6,7 @@ import birth54 from "../assets/img/memberletter/birth54.jpg";
 import lassgo52 from "../assets/img/memberletter/lassgo52.jpg";
 import lassgo53 from "../assets/img/memberletter/lassgo53.jpg";
 import lassgo54 from "../assets/img/memberletter/lassgo54.jpg";
+import hm2yj from "../assets/img/letter/hm2yj-anniversary.JPG"
 
 export const memberletters = [
   {
@@ -61,7 +62,7 @@ export const memberletters = [
   {
     title: "一週年給藝俊",
     description: "2024.03.12",
-    imgUrl: haminjpeg,
+    imgUrl: hm2yj,
     translation: `To 藝俊哥
 安妞哈民！藝俊哥，我是藝賴的河玟。對哥哥想說的話或想表達的感情已經常常在說了，所以其實也沒什麼要說的了，以上。是開玩笑的啦。
 

@@ -21,7 +21,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Letters</h2>
-                <p>The messages that Hamin has written at various events, in different live, and to different members.</p>
+                <p>The messages that Hamin has written at various events, in different live broadcasts, and to different members.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

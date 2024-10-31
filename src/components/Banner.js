@@ -13,7 +13,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(150 - Math.random() * 50);
   const [index, setIndex] = useState(1);
   const toRotate = [ "안녕하민!", "나이스다!", "하이팅!" ];
-  const period = 1500;
+  const period = 1200;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -58,7 +58,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
               {/*  <span className="tagline">PLAVE</span> */}
                   <h1>{`플레이브 하민입니다.`}</h1>
-                  <h2 className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "플레이브", "" ]'><span className="wrap">{text}</span></h2>
+                  <h2 className="txt-rotate" dataPeriod="1000" ><span className="wrap">{text}</span></h2>
                   <p>Welcome to Hamin's Letter Gallery —
                     a collection of letters that highlight various moments since PLAVE's debut.
                     Please enjoy the beauty of Hamin's words and the memories.</p>
