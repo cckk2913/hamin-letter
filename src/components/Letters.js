@@ -1,20 +1,19 @@
 // Letters.js
 import haminjpeg from "../assets/img/hamin.jpeg";
-import firstcon from "../assets/img/first-con.jpg";
-import encorecon from "../assets/img/encore-con.jpg";
-import debut100 from "../assets/img/debut100.JPG";
-import topastmyself from "../assets/img/to-past-myself.JPG";
-import popupstore from "../assets/img/pop-up-store.JPG";
-import hamindad from "../assets/img/hamin-dad.JPG";
-import haminmom from "../assets/img/hamin-mom.JPG";
+import firstcon from "../assets/img/letter/first-con.jpg";
+import encorecon from "../assets/img/letter/encore-con.jpg";
+import debut100 from "../assets/img/letter/debut100.JPG";
+import topastmyself from "../assets/img/letter/to-past-myself.JPG";
+import popupstore from "../assets/img/letter/pop-up-store.JPG";
+import hamindad from "../assets/img/letter/hamin-dad.JPG";
+import haminmom from "../assets/img/letter/hamin-mom.JPG";
 
 export const letters = [
   {
     title: "出道100天",
     description: "2023.06.18",
     imgUrl: debut100,
-    translation:
-  `大家好，我是河玟！🐈‍⬛
+    translation: `大家好，我是河玟！🐈‍⬛
       
 100天的時間好快就到了！
   
@@ -31,9 +30,11 @@ export const letters = [
     translation: `噗哩們大家好呀:)
 我是PLAVE的河玟。
 感覺初放送時，因為認生而顯得尷尬的樣子好像還在眼前，像是過了三年那麼久，結果只是一年前而已啊。這一年間和噗哩們一起的回憶，真的是無法取代的，現在已經成為我不可或缺的存在了。
-你們總是對我說許多美好的話語和稱讚，往後也請多多關照啦ㅎㅎ我也會對噗哩們多多說好話、給你們稱讚哦！噗哩好聰明！是「讚讚博士」！關到「稱讚監獄」~~！！
-不管在哪裡，我都會陪在你們身邊，所以不要擔心！！我會讓你們每時每刻都能笑開懷，所以哪裡也不准去哦！！
+
+你們總是對我說許多美好的話語和稱讚，往後也請多多關照啦ㅎㅎ我也會對噗哩們多多說好話、給你們稱讚哦！噗哩好聰明！是「讚讚博士」！關到「稱讚監獄」~~！！不管在哪裡，我都會陪在你們身邊，所以不要擔心！！我會讓你們每時每刻都能笑開懷，所以哪裡也不准去哦！！
+
 還有，有時候我收到你們的信，看到信裡寫著「在自己真的很辛苦的時候遇到了PLAVE，因為PLAVE而笑了，也得到了幸福」，每當看到這樣的話時，我就會覺得自己真的成功了。我會努力成為能夠給予大家力量、帶來正面影響的人，也會用行動去愛你們的。
+
 噗哩們，祝我們的一周年快樂，有噗哩真的讓我覺得很驕傲、很幸福。
 ㄨㄏㄞㄋㄇ♡。`,
   },
@@ -72,23 +73,41 @@ export const letters = [
 今天也是托噗哩們的福，我度過了一個幸福的一天！`,
   },
   {
+    title: "家庭日爸爸的信",
+    description: "2024.05.16",
+    imgUrl: hamindad,
+    translation: `親愛的兒子！
+世上有兩條路，一條是現成的路，另一條是崎嶇且未曾走過的路。我們兒子好像很擅長走那條未曾走過的路，為此我們非常驕傲和自豪。無論是泥濘的路、碎石路還是柏油路，我們兒子似乎都能順利克服，這讓我們非常高興和安心。
+
+在5月這個家庭月裡，想到了我們的兒子，因為不能時常見面而感到有些難過。但我會為你祈禱，希望你記得爸爸和媽媽一直都在你身後。聽著噗哩這樣陌生孩子們的歡呼，雖然對我來說是接連的驚喜，但看到被大家愛著的你，我感到非常高興。希望你能作為PLAVE的成員，能夠接受到比現在更多的愛、更幸福，也希望你能給予他人更多愛。
+
+我會一如既往地為你應援，現在也是如此。每當我聽到PLAVE的歌曲，就會很感謝你讓這一天變得如此有意義。謝謝你，我的兒子。我愛你 (사랑한데이是釜山方言)
+
+2024年5月的某天，
+爸爸
+`,
+  },
+  {
+    title: "家庭日媽媽的信",
+    description: "2024.05.16",
+    imgUrl: haminmom,
+    translation: `To 玟
+Hi～嗯～每當想到你，我總感到非常驕傲和安心，你是我可愛的寶貝。從小時候開始你就有很多自己的想法，非常有同理心又很受歡迎，總是有很多朋友。上學時遇到的班導們，總羨慕我有像你這樣的兒子，這讓媽媽感到無比喜悅。
+
+在艱難的狀況下運動、唱歌、練舞，揮灑了很多汗水也沒有顯露疲憊，你是一直都很積極、總是優先照顧和擔心爸媽的小兒子。正因為你付出了那麼多的努力，我們才能有現在的時光。兒子辛苦了，期待你繼續前行。現在你有了PLAVE這四位可靠的哥哥們，還有數十萬永遠支持你的家人們—PLLI，媽媽感到無比幸福和感激。演唱會中那激動人心的時刻，仍然讓我心跳加速，感動得淚流滿面。
+
+親愛的玟啊，希望你像現在一樣，不要忘記初心，永遠成為祝福的通道，讓善良的影響力常伴左右，媽媽為此誠心祈禱。溫暖、細心、帥氣、令人驕傲的我的兒子，我一直都很感謝你。記得照顧自己的身體健康，要睡好、吃好，知道嗎？由衷地感謝藝俊哥、諾亞哥、斑比哥和銀虎哥，謝謝你們一直照顧我的小兒子（請替我轉達）真心的。最後，媽媽會永遠為你成長過程的帥氣生活應援的。
+
+我愛你，兒子。
+From 河玟媽
+`,
+  },
+  {
     title: "一週年給過去的自己",
     description: "2024.03.12",
     imgUrl: topastmyself,
     translation: `To 過去的河玟
 河玟啊，你好，我是來自未來的河玟。首先，比起用話語表達，我更想先給你一個擁抱。雖然對自己說話有點尷尬，但我準備了一些想給你力量的話。現在狀態怎麼樣？我現在每天都過得非常非常幸福。那是你未來將會體驗到的幸福，雖然不能透露細節。不過，你現在可能處於有些艱難的時刻吧。記憶中一些場景在腦海掠過。練習後錯過末班車，徹夜等待第一班車時，邊走邊聽音樂的時候；在家裡的小鏡子前，每天練舞2.3小時的時候；比起得到人們的認同，更多被忽視的時候；感覺夢想逐漸變得渺小的時候；還有下定決心要放棄音樂的時候。這些最困難的時刻，你一個人獨自戰鬥、獨自受傷、獨自克服。未來讓人感到不安和害怕吧？現在我可以給你這個問題的確切答案了。你所擔心的事情不需要那麼擔憂，會比你期待的更加幸福的。所以別讓這些艱難的時刻傷害你，像平時一樣，堂堂正正、努力地準備吧。未來會有很多人喜歡你的音樂和舞蹈，而且最重要的是，我變得更愛自己了。即使現在痛苦難熬，也請堅持住，因為將來有許多人需要你守護，你要變得更強大。最後，如果偶然遇見叫韓諾亞的人，一定要讓他注意到你。雖然無法透露其他細節，但一定要讓叫做諾亞的人成為你的人，知道嗎？他是會成為家人的人呀。那麼，河玟啊，我愛你，我會成為你一輩子的朋友。今天也辛苦了，祝你好夢，再見。
 From 你最好的朋友`,
-  },
-  {
-    title: "家庭日爸爸的信",
-    description: "Letter from Hamin",
-    imgUrl: hamindad,
-    translation: "",
-  },
-  {
-    title: "家庭日媽媽的信",
-    description: "Letter from Hamin",
-    imgUrl: haminmom,
-    translation: "",
   },
 ];

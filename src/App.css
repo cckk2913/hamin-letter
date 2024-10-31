@@ -435,14 +435,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
   margin-bottom: 24px;
   max-width: 100%; /* Responsive width */
-  height: 550px; /* Fixed height */
+  height: auto; /* Adjust height automatically based on image size */
 }
 
-/* Add this rule to target images inside .proj-imgbx */
+/* Ensure the image fills the width of .proj-imgbx and maintains its aspect ratio */
 .proj-imgbx img {
-  height: 500px; /* Fixed height for images */
-  width: auto; /* Keep image aspect ratio */
-  object-fit: cover; /* Ensure images fill the height without distortion */
+  width: 100%; /* Image scales to the width of .proj-imgbx */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures image covers the area without distortion */
 }
 
 .proj-imgbx::before {
@@ -492,8 +492,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+/* Ensure the translation box appears outside proj-imgbx */
 .translation-box {
+  position: absolute;
+  top: 130px; /* Aligns with the top of proj-imgbx */
+  left: 4%; /* Moves it to the right of proj-imgbx */
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
   white-space: pre-wrap; /* Makes sure spaces and line breaks are preserved */
+  z-index: 10; /* Ensure it appears above other elements */
+  width: 400px;
+  display: none;
+}
+
+
+/*
+.translation-box {
+  white-space: pre-wrap; /* Makes sure spaces and line breaks are preserved 
   position: absolute;
   bottom: 10px;
   left: 10px;
@@ -505,6 +523,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 5px;
   display: none;
 }
+*/
 
 .proj-imgbx:hover .translation-box {
   display: block;
