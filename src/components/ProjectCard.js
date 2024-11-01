@@ -25,6 +25,7 @@ export const ProjectCard = ({ title, description, imgUrl, translation }) => {
       <div 
         className="translation-box" 
         style={{ display: isHovered ? 'block' : 'none' }}
+        
       >
         {translation}
       </div>

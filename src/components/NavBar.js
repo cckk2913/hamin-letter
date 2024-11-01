@@ -1,16 +1,14 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import haminlogo from "../assets/img/hamin-logo-white.png";
-import { FaTwitter } from "react-icons/fa";
-import navIconIG from '../assets/img/nav-icon3.svg';
-import { HashLink } from 'react-router-hash-link';
-import {
-  BrowserRouter as Router
-} from "react-router-dom";
+import { FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import navIconIG from "../assets/img/nav-icon3.svg";
+import { HashLink } from "react-router-hash-link";
+import { BrowserRouter as Router } from "react-router-dom";
+import { FaI } from "react-icons/fa6";
 
 export const NavBar = () => {
-
-  const [activeLink, setActiveLink] = useState('home');
+  const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -20,16 +18,16 @@ export const NavBar = () => {
       } else {
         setScrolled(false);
       }
-    }
+    };
 
     window.addEventListener("scroll", onScroll);
 
     return () => window.removeEventListener("scroll", onScroll);
-  }, [])
+  }, []);
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
-  }
+  };
 
   return (
     <Router>
@@ -43,17 +41,53 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Letters</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Profile</Nav.Link>
-            
+              <Nav.Link
+                href="#home"
+                className={
+                  activeLink === "home" ? "active navbar-link" : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("home")}
+              >
+                Home
+              </Nav.Link>
+              <Nav.Link
+                href="#projects"
+                className={
+                  activeLink === "projects"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("projects")}
+              >
+                Letters
+              </Nav.Link>
+              <Nav.Link
+                href="#skills"
+                className={
+                  activeLink === "skills" ? "active navbar-link" : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("skills")}
+              >
+                Profile
+              </Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://twitter.com/plave_official" target="_blank" rel="noopener noreferrer">
-          <FaTwitter size={15} color="#1DA1F2" />
-        </a>
-                <a href="https://www.instagram.com/plave_official/"><img src={navIconIG} alt="Instagram" /></a>
+                <a
+                  href="https://twitter.com/plave_official"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaTwitter size={15} color="#1DA1F2" />
+                </a>
+                <a href="https://www.instagram.com/plave_official/">
+                  <FaInstagram size={15} color="white" />
+                </a>
+                <a href="https://www.youtube.com/channel/UCPZIPuQPrfrUG9Xe_okEmQA">
+                  <FaYoutube size={15} color="red" />
+                </a>
+                {/* <a href="https://www.instagram.com/plave_official/"><img src={navIconIG} alt="Instagram" /></a>
+                 */}
               </div>
               {/*<HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
@@ -63,5 +97,5 @@ export const NavBar = () => {
         </Container>
       </Navbar>
     </Router>
-  )
-}
+  );
+};
