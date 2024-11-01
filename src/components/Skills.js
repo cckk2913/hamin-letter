@@ -1,16 +1,22 @@
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import colorSharp from "../assets/img/color-sharp.png";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import {
-  dark, dracula, oneDark, vscDarkPlus, tomorrow, nightOwl, duotoneDark
- } from 'react-syntax-highlighter/dist/esm/styles/prism';
-
+  dark,
+  dracula,
+  oneDark,
+  vscDarkPlus,
+  tomorrow,
+  nightOwl,
+  duotoneDark,
+} from "react-syntax-highlighter/dist/esm/styles/prism";
 
 export const Skills = () => {
-  {/*  const responsive = {
+  {
+    /*  const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
@@ -29,8 +35,9 @@ export const Skills = () => {
       items: 1
     }
   };
-*/}
-  
+*/
+  }
+
   const codeString = `
   class Hamin:
   
@@ -38,10 +45,24 @@ export const Skills = () => {
         self.name = "柳河玟"
         self.birth = "????.11.01"
         self.color = "Black"
+        self.home = "稱讚監獄"
+        self.family = ["PLAVE", "PLLI"]
         self.mood = "Happy"
         self.action_sequence = []  
         self.dance_moves = ["Spin", "Jump", "Wave", "Shuffle"]
 
+    def drawing(self):
+        drawing_subjects = ["👽", "🐬🫧🐰", "🦙✨🐈", "🦌🌸🐿️", "🐺🔥🐶", "🐈‍⬛📟🔟🐸"]
+        chosen_subject = random.choice(drawing_subjects)
+        self.mood = "Creative"
+        self.action_sequence.append({
+            "action": "drawing",
+            "subject": chosen_subject,
+            "style": "playful and cute",
+            "color": self.color
+        })
+        return True
+        
     def sing(self):
         self.mood = "Soulful"
         self.action_sequence.append({
@@ -59,7 +80,7 @@ export const Skills = () => {
         return True
 
     def show_cuteness(self):
-        cuteness_actions = [ "小青蛙嘴", "貓貓手", "腳丫擊掌", "企鵝鞠躬"]
+        cuteness_actions = [ "小青蛙嘟嘴", "貓貓手", "腳丫擊掌", "企鵝鞠躬"]
         self.mood = "Adorable"
         self.action_sequence.append({
             "action": "show_cuteness", 
@@ -68,19 +89,20 @@ export const Skills = () => {
         return True
   `;
 
-
   return (
     <section className="skill" id="skills">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="skill-bx wow zoomIn">
               <h2>Profile</h2>
               <h4>What makes Hamin?</h4>
-                        <p><SyntaxHighlighter language="python" style={nightOwl}>
-      {codeString}
-    </SyntaxHighlighter></p>
-                     {/*   <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+              <p>
+                <SyntaxHighlighter language="python" style={nightOwl}>
+                  {codeString}
+                </SyntaxHighlighter>
+              </p>
+              {/*   <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Web Development</h5>
@@ -98,11 +120,11 @@ export const Skills = () => {
                                 <h5>Web Development</h5>
                             </div>
                         </Carousel> */}
-                    </div>
-                </div>
             </div>
+          </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+      </div>
+      <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
-  )
-}
+  );
+};
