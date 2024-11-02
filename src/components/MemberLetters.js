@@ -6,7 +6,7 @@ import birth54 from "../assets/img/memberletter/birth54.jpg";
 import lassgo52 from "../assets/img/memberletter/lassgo52.jpg";
 import lassgo53 from "../assets/img/memberletter/lassgo53.jpg";
 import lassgo54 from "../assets/img/memberletter/lassgo54.jpg";
-import hm2yj from "../assets/img/letter/hm2yj-anniversary.JPG"
+import hm2yj from "../assets/img/letter/hm2yj-anniversary.JPG";
 
 export const memberletters = [
   {
@@ -50,7 +50,7 @@ export const memberletters = [
 —河玟-`,
   },
   {
-    title: "LASSGP PLAVE",
+    title: "LASSGO PLAVE",
     description: "EP.04",
     imgUrl: lassgo54,
     translation: `銀虎哥 
@@ -59,7 +59,7 @@ export const memberletters = [
 `,
   },
   {
-    title: "LASSGP PLAVE",
+    title: "LASSGO PLAVE",
     description: "EP.11",
     imgUrl: lassgo53,
     translation: `斑比哥太棒了 
@@ -67,7 +67,7 @@ export const memberletters = [
 -河玟尼-`,
   },
   {
-    title: "LASSGP PLAVE",
+    title: "LASSGO PLAVE",
     description: "EP.21",
     imgUrl: lassgo52,
     translation: `藝俊哥
