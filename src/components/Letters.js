@@ -1,5 +1,4 @@
 // Letters.js
-import haminjpeg from "../assets/img/hamin.jpeg";
 import firstcon from "../assets/img/letter/first-con.jpg";
 import encorecon from "../assets/img/letter/encore-con.jpg";
 import debut100 from "../assets/img/letter/debut100.JPG";
@@ -7,7 +6,8 @@ import topastmyself from "../assets/img/letter/to-past-myself.JPG";
 import popupstore from "../assets/img/letter/pop-up-store.JPG";
 import hamindad from "../assets/img/letter/hamin-dad.JPG";
 import haminmom from "../assets/img/letter/hamin-mom.JPG";
-
+import mmawelcome from "../assets/img/letter/hamin-mma-welcome.jpeg";
+import mmabye from "../assets/img/letter/hamin-mma-bye.jpeg";
 
 export const letters = [
   {
@@ -110,5 +110,28 @@ From 河玟媽
     translation: `To 過去的河玟
 河玟啊，你好，我是來自未來的河玟。首先，比起用話語表達，我更想先給你一個擁抱。雖然對自己說話有點尷尬，但我準備了一些想給你力量的話。現在狀態怎麼樣？我現在每天都過得非常非常幸福。那是你未來將會體驗到的幸福，雖然不能透露細節。不過，你現在可能處於有些艱難的時刻吧。記憶中一些場景在腦海掠過。練習後錯過末班車，徹夜等待第一班車時，邊走邊聽音樂的時候；在家裡的小鏡子前，每天練舞2.3小時的時候；比起得到人們的認同，更多被忽視的時候；感覺夢想逐漸變得渺小的時候；還有下定決心要放棄音樂的時候。這些最困難的時刻，你一個人獨自戰鬥、獨自受傷、獨自克服。未來讓人感到不安和害怕吧？現在我可以給你這個問題的確切答案了。你所擔心的事情不需要那麼擔憂，會比你期待的更加幸福的。所以別讓這些艱難的時刻傷害你，像平時一樣，堂堂正正、努力地準備吧。未來會有很多人喜歡你的音樂和舞蹈，而且最重要的是，我變得更愛自己了。即使現在痛苦難熬，也請堅持住，因為將來有許多人需要你守護，你要變得更強大。最後，如果偶然遇見叫韓諾亞的人，一定要讓他注意到你。雖然無法透露其他細節，但一定要讓叫做諾亞的人成為你的人，知道嗎？他是會成為家人的人呀。那麼，河玟啊，我愛你，我會成為你一輩子的朋友。今天也辛苦了，祝你好夢，再見。
 From 你最好的朋友`,
+  },
+  {
+    title: "2024 MMA 歡迎訊息",
+    description: "2024.11.30",
+    imgUrl: mmawelcome,
+    translation: `噗哩！這裡！這裡！
+這裡有PLAVE 的河玟尼！
+在這裡見面是不是特別開心？ㅎ-ㅎ
+是不是一想到能見到 PLAVE 就覺得緊張呢？
+嗯……我非常緊張呢 ㅎ-ㅎ
+請給我力量吧！加油♡-♡
+—PLAVE 河玟尼 `,
+  },
+  {
+    title: "2024 MMA 感謝訊息",
+    description: "2024.11.30",
+    imgUrl: mmabye,
+    translation: `呼..有好好享受舞台嗎？
+托噗哩的福順利演出了！！
+明明剛剛才見過，已經開始想你們了ㅠ-ㅠ
+總是很感謝、很愛你們...！
+回家小心，要再聯絡我喔♡
+—PLAVE 河玟尼 `,
   },
 ];
