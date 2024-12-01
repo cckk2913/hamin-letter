@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hamin-letter/static/css/main.4a416949.css",
-    "main.js": "/hamin-letter/static/js/main.aeb1f113.js",
+    "main.js": "/hamin-letter/static/js/main.e5b1547f.js",
     "static/js/787.c0e50c82.chunk.js": "/hamin-letter/static/js/787.c0e50c82.chunk.js",
     "static/media/caelum_hamin.png": "/hamin-letter/static/media/caelum_hamin.496145d43f1b124f60fb.png",
     "static/media/hamin.jpeg": "/hamin-letter/static/media/hamin.2592cbba3393643e0ac9.jpeg",
@@ -29,6 +29,8 @@
     "static/media/CentraNo2-Book.ttf": "/hamin-letter/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/bittercafe.JPG": "/hamin-letter/static/media/bittercafe.c135da765b7783a61116.JPG",
     "static/media/footer-bg.png": "/hamin-letter/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/hamin-mma-welcome.jpeg": "/hamin-letter/static/media/hamin-mma-welcome.3c847ef7ffa93da8a936.jpeg",
+    "static/media/hamin-mma-bye.jpeg": "/hamin-letter/static/media/hamin-mma-bye.b891975c4576358d6e24.jpeg",
     "static/media/haminiejungwon.JPG": "/hamin-letter/static/media/haminiejungwon.e576338a16c8bd4d6d99.JPG",
     "static/media/satellite.JPG": "/hamin-letter/static/media/satellite.de7e71202071541f4960.JPG",
     "static/media/lovemykitty.JPG": "/hamin-letter/static/media/lovemykitty.339bd53ba811d54f4d29.JPG",
@@ -55,11 +57,11 @@
     "static/media/arrow1.svg": "/hamin-letter/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/hamin-letter/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.4a416949.css.map": "/hamin-letter/static/css/main.4a416949.css.map",
-    "main.aeb1f113.js.map": "/hamin-letter/static/js/main.aeb1f113.js.map",
+    "main.e5b1547f.js.map": "/hamin-letter/static/js/main.e5b1547f.js.map",
     "787.c0e50c82.chunk.js.map": "/hamin-letter/static/js/787.c0e50c82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a416949.css",
-    "static/js/main.aeb1f113.js"
+    "static/js/main.e5b1547f.js"
   ]
 }
